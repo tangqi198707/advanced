@@ -63,7 +63,7 @@ class SearchUser extends User
         ]);
 
         $query->andFilterWhere(['like', 'username', $this->username])
-            ->andFilterWhere(['like', 'tel', $this->password])
+            ->andFilterWhere(['like', 'tel', $this->tel])
             ->andFilterWhere(['like', 'email', $this->email]);
 
         return $dataProvider;
