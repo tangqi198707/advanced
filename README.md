@@ -51,21 +51,21 @@ tests                    contains various tests for the advanced application
     codeception/         contains tests developed with Codeception PHP Testing Framework
 ```
 一些配置项:
-<VirtualHost *:80>
-    ServerAdmin 923332947@qq.com
-    DocumentRoot "D:/www/advanced/backend/web"
-    ServerName tangqi.com
-    DirectoryIndex index.php index.html index.phtml index.htm
-    <Directory D:/www/advanced/backend/web>
-        DirectoryIndex index.php index.html index.phtml index.htm
-        AllowOverride All
+<VirtualHost *:80><br>
+    ServerAdmin 923332947@qq.com<br>
+    DocumentRoot "D:/www/advanced/backend/web"<br>
+    ServerName tangqi.com<br>
+    DirectoryIndex index.php index.html index.phtml index.htm<br>
+    <Directory D:/www/advanced/backend/web><br>
+        DirectoryIndex index.php index.html index.phtml index.htm<br>
+        AllowOverride All<br>
         Order allow,deny
-        Allow from all
-        RewriteEngine on
-        RewriteCond %{REQUEST_FILENAME} !-f
-        RewriteCond %{REQUEST_FILENAME} !-d
-        RewriteRule . index.php
-    </Directory>
-</VirtualHost>
+        Allow from all<br>
+        RewriteEngine on<br>
+        RewriteCond %{REQUEST_FILENAME} !-f<br>
+        RewriteCond %{REQUEST_FILENAME} !-d<br>
+        RewriteRule . index.php<br>
+    </Directory><br>
+</VirtualHost><br>
 
 数据库文件在 data目录下
