@@ -1,0 +1,408 @@
+2015-07-25 14:36:53 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message '函数缺少参数：name' in D:\www\advanced\vendor\yiisoft\yii2\console\Controller.php:129
+Stack trace:
+#0 D:\www\advanced\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\www\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 D:\www\advanced\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('create', Array)
+#3 D:\www\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('create', Array)
+#4 D:\www\advanced\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate/create', Array)
+#5 D:\www\advanced\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate/create', Array)
+#6 D:\www\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 D:\www\advanced\yii(31): yii\base\Application->run()
+#8 {main}
+2015-07-25 14:36:53 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Win-01506140914'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Win-01506140914'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\nodejs\\;D:\\xampp\\apache\\bin;D:\\xampp\\mysql\\bin;D:\\xampp\\php;D:\\nodejs;.;;.;;.;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Win-01506140914'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\www\\advanced\\'
+    'PHP_SELF' => 'D:\\www\\advanced\\yii'
+    'SCRIPT_NAME' => 'D:\\www\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'D:\\www\\advanced\\yii'
+    'PATH_TRANSLATED' => 'D:\\www\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1437827813.7319
+    'REQUEST_TIME' => 1437827813
+    'argv' => [
+        0 => 'D:\\www\\advanced\\yii'
+        1 => 'migrate/create'
+    ]
+    'argc' => 2
+]
+2015-07-25 14:38:03 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message '函数缺少参数：name' in D:\www\advanced\vendor\yiisoft\yii2\console\Controller.php:129
+Stack trace:
+#0 D:\www\advanced\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\www\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 D:\www\advanced\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('create', Array)
+#3 D:\www\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('create', Array)
+#4 D:\www\advanced\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate/create', Array)
+#5 D:\www\advanced\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate/create', Array)
+#6 D:\www\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 D:\www\advanced\yii(31): yii\base\Application->run()
+#8 {main}
+2015-07-25 14:38:03 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Win-01506140914'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Win-01506140914'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\nodejs\\;D:\\xampp\\apache\\bin;D:\\xampp\\mysql\\bin;D:\\xampp\\php;D:\\nodejs;.;;.;;.;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Win-01506140914'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\www\\advanced\\'
+    'PHP_SELF' => 'D:\\www\\advanced\\yii'
+    'SCRIPT_NAME' => 'D:\\www\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'D:\\www\\advanced\\yii'
+    'PATH_TRANSLATED' => 'D:\\www\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1437827883.1632
+    'REQUEST_TIME' => 1437827883
+    'argv' => [
+        0 => 'D:\\www\\advanced\\yii'
+        1 => 'migrate/create'
+    ]
+    'argc' => 2
+]
+2015-07-25 14:38:20 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message '函数缺少参数：name' in D:\www\advanced\vendor\yiisoft\yii2\console\Controller.php:129
+Stack trace:
+#0 D:\www\advanced\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\www\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 D:\www\advanced\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('create', Array)
+#3 D:\www\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('create', Array)
+#4 D:\www\advanced\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate/create', Array)
+#5 D:\www\advanced\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate/create', Array)
+#6 D:\www\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 D:\www\advanced\yii(31): yii\base\Application->run()
+#8 {main}
+2015-07-25 14:38:20 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Win-01506140914'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Win-01506140914'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\nodejs\\;D:\\xampp\\apache\\bin;D:\\xampp\\mysql\\bin;D:\\xampp\\php;D:\\nodejs;.;;.;;.;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Win-01506140914'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\www\\advanced\\'
+    'PHP_SELF' => 'D:\\www\\advanced\\yii'
+    'SCRIPT_NAME' => 'D:\\www\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'D:\\www\\advanced\\yii'
+    'PATH_TRANSLATED' => 'D:\\www\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1437827900.3049
+    'REQUEST_TIME' => 1437827900
+    'argv' => [
+        0 => 'D:\\www\\advanced\\yii'
+        1 => 'migrate/create'
+    ]
+    'argc' => 2
+]
+2015-07-25 14:38:34 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message '函数缺少参数：name' in D:\www\advanced\vendor\yiisoft\yii2\console\Controller.php:129
+Stack trace:
+#0 D:\www\advanced\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\www\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 D:\www\advanced\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('create', Array)
+#3 D:\www\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('create', Array)
+#4 D:\www\advanced\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate/create', Array)
+#5 D:\www\advanced\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate/create', Array)
+#6 D:\www\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 D:\www\advanced\yii(31): yii\base\Application->run()
+#8 {main}
+2015-07-25 14:38:34 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Win-01506140914'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Win-01506140914'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\nodejs\\;D:\\xampp\\apache\\bin;D:\\xampp\\mysql\\bin;D:\\xampp\\php;D:\\nodejs;.;;.;;.;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Win-01506140914'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\www\\advanced\\'
+    'PHP_SELF' => 'D:\\www\\advanced\\yii'
+    'SCRIPT_NAME' => 'D:\\www\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'D:\\www\\advanced\\yii'
+    'PATH_TRANSLATED' => 'D:\\www\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1437827914.4455
+    'REQUEST_TIME' => 1437827914
+    'argv' => [
+        0 => 'D:\\www\\advanced\\yii'
+        1 => 'migrate/create'
+    ]
+    'argc' => 2
+]
+2015-07-25 14:38:44 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message '函数缺少参数：name' in D:\www\advanced\vendor\yiisoft\yii2\console\Controller.php:129
+Stack trace:
+#0 D:\www\advanced\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\www\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 D:\www\advanced\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('create', Array)
+#3 D:\www\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('create', Array)
+#4 D:\www\advanced\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate/create', Array)
+#5 D:\www\advanced\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate/create', Array)
+#6 D:\www\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 D:\www\advanced\yii(31): yii\base\Application->run()
+#8 {main}
+2015-07-25 14:38:44 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Win-01506140914'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Win-01506140914'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\nodejs\\;D:\\xampp\\apache\\bin;D:\\xampp\\mysql\\bin;D:\\xampp\\php;D:\\nodejs;.;;.;;.;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Win-01506140914'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\www\\advanced\\'
+    'PHP_SELF' => 'D:\\www\\advanced\\yii'
+    'SCRIPT_NAME' => 'D:\\www\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'D:\\www\\advanced\\yii'
+    'PATH_TRANSLATED' => 'D:\\www\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1437827924.1117
+    'REQUEST_TIME' => 1437827924
+    'argv' => [
+        0 => 'D:\\www\\advanced\\yii'
+        1 => 'migrate/create'
+    ]
+    'argc' => 2
+]
+2015-07-25 14:40:27 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message '函数缺少参数：name' in D:\www\advanced\vendor\yiisoft\yii2\console\Controller.php:129
+Stack trace:
+#0 D:\www\advanced\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\www\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 D:\www\advanced\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('create', Array)
+#3 D:\www\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('create', Array)
+#4 D:\www\advanced\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate/create', Array)
+#5 D:\www\advanced\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate/create', Array)
+#6 D:\www\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 D:\www\advanced\yii(31): yii\base\Application->run()
+#8 {main}
+2015-07-25 14:40:27 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'Win-01506140914'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\Win-01506140914'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\nodejs\\;D:\\xampp\\apache\\bin;D:\\xampp\\mysql\\bin;D:\\xampp\\php;D:\\nodejs;.;;.;;.;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Win-01506140914'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\www\\advanced\\'
+    'PHP_SELF' => 'D:\\www\\advanced\\yii'
+    'SCRIPT_NAME' => 'D:\\www\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'D:\\www\\advanced\\yii'
+    'PATH_TRANSLATED' => 'D:\\www\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1437828027.0573
+    'REQUEST_TIME' => 1437828027
+    'argv' => [
+        0 => 'D:\\www\\advanced\\yii'
+        1 => 'migrate/create'
+    ]
+    'argc' => 2
+]
